@@ -1,0 +1,29 @@
+/* App.css — add at top */
+html, body, #root, .App {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ensure container-fluid really has no padding/margins */
+.container-fluid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* make cards truly full width when using the helper class below */
+.fullwidth-card {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* ensure inputs stretch */
+.form-control, textarea.form-control {
+  width: 100% !important;
+  box-sizing: border-box;
+}
